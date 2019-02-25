@@ -22,8 +22,8 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity
-                android:name=".feature.main.MainActivity"/>
+        <activity android:name=".feature.main.MainActivity"/>
+        <activity android:name=".feature.home.HomeActivity"/>
     </application>
 
 </manifest>

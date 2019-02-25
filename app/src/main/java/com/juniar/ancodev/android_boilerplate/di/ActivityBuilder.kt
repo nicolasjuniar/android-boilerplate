@@ -1,6 +1,7 @@
 package com.juniar.ancodev.android_boilerplate
 
 import android.annotation.SuppressLint
+import com.juniar.ancodev.android_boilerplate.feature.home.HomeActivity
 import com.juniar.ancodev.android_boilerplate.feature.main.MainActivity
 import com.juniar.ancodev.android_boilerplate.feature.splashscreen.SplashScreenActivity
 import dagger.Module
@@ -13,10 +14,14 @@ abstract class ActivityBuilder {
 
     @ActivityScoped
     @ContributesAndroidInjector
-    abstract fun providesMainActivity(): MainActivity
+    abstract fun provideSplashScreenActivity(): SplashScreenActivity
 
     @ActivityScoped
     @ContributesAndroidInjector
-    abstract fun providesSplashScreenActivity(): SplashScreenActivity
+    abstract fun provideHomeActivity(): HomeActivity
+
+    @ActivityScoped
+    @ContributesAndroidInjector
+    abstract fun provideMainActivity(): MainActivity
 
 }

@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Handler
 import com.juniar.ancodev.android_boilerplate.R
 import com.juniar.ancodev.android_boilerplate.base.BaseActivity
+import com.juniar.ancodev.android_boilerplate.feature.home.HomeActivity
 import com.juniar.ancodev.android_boilerplate.feature.main.MainActivity
 
 class SplashScreenActivity : BaseActivity() {
@@ -14,7 +15,7 @@ class SplashScreenActivity : BaseActivity() {
 
     override fun onViewReady() {
         Handler().postDelayed({
-            startActivity(Intent(this@SplashScreenActivity, MainActivity::class.java))
+            startActivity(Intent(this@SplashScreenActivity, HomeActivity::class.java))
             finish()
         }, 2000)
     }
