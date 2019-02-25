@@ -1,9 +1,10 @@
-package com.juniar.ancodev.android_boilerplate
+package com.juniar.ancodev.android_boilerplate.feature.main
 
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.juniar.ancodev.android_boilerplate.Model.CountryModel
+import com.juniar.ancodev.android_boilerplate.R
 import com.juniar.ancodev.android_boilerplate.base.BaseActivity
 import com.juniar.ancodev.android_boilerplate.common.GeneralRecyclerViewAdapter
 import com.juniar.ancodev.android_boilerplate.utils.loadImage

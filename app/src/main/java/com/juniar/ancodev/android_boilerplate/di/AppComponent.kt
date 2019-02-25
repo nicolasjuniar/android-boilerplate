@@ -2,6 +2,7 @@ package com.juniar.ancodev.android_boilerplate
 
 import android.app.Application
 import com.example.mvvm_movie.di.FragmentBuilder
+import com.juniar.ancodev.android_boilerplate.feature.main.MainApp
 import dagger.BindsInstance
 import dagger.Component
 import dagger.android.AndroidInjector

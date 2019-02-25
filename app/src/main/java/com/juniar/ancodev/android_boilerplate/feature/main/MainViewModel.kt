@@ -1,8 +1,9 @@
-package com.juniar.ancodev.android_boilerplate
+package com.juniar.ancodev.android_boilerplate.feature.main
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
+import com.juniar.ancodev.android_boilerplate.ActivityScoped
 import com.juniar.ancodev.android_boilerplate.Model.CountryModel
 import com.juniar.ancodev.android_boilerplate.base.BaseViewModel
 import com.juniar.ancodev.android_boilerplate.data.NetworkRepository
